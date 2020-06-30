@@ -12,7 +12,7 @@ import (
 	"github.com/yandex-cloud/go-genproto/yandex/cloud/compute/v1"
 )
 
-const yandexComputeSnapshotDefaultTimeout = 20 * time.Minute
+const yandexComputeSnapshotDefaultTimeout = 120 * time.Minute
 
 func resourceYandexComputeSnapshot() *schema.Resource {
 	return &schema.Resource{
